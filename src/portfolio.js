@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: " Dr.Bharat Lohani",
+  title: "Hi all, Dr.Bharat Lohani",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Professor at IIT Kanpur .My research involves use of high resolution remotely sensed data, especially LiDAR data, for 3D modelling, visualization and various other applications.I am also using GIS for innovative applications."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -126,21 +126,29 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "ESSC, The University of Reading, UK",
+      logo: require("./assets/images/ess.png"),
+      subHeader: "Doctrate in Remote Sensing & Environmental Science",
+      duration: "Year:	1999",
+      desc: "Application of airborne remote sensing to the study of intertidal geomorphology.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "IIT Roorkee, Roorkee",
+      logo: require("./assets/images/rookie.png"),
+      subHeader: "Master of Engineering in 	Remote Sensing & Photogrammetric ",
+      duration: "Year:	1990",
+      desc: "	Development of an image enhancement package.",
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+    {
+      schoolName: "Madan Mohan Malviya Engineering College, Gorakhpur",
+      logo: require("./assets/images/madhan.png"),
+      subHeader: "Bachelor of Engineering in Civil",
+      duration: "Year:	1988",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
