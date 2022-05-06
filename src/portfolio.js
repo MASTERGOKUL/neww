@@ -21,12 +21,12 @@ const illustration = {
 
 const greeting = {
   username: " Dr.Bharat Lohani",
-  title: "Hi all, Dr.Bharat Lohani",
+  title: "Hi, I'm Dr.Bharat Lohani",
   subTitle: emoji(
-    "Professor at IIT Kanpur .My research involves use of high resolution remotely sensed data, especially LiDAR data, for 3D modelling, visualization and various other applications.I am also using GIS for innovative applications."
+    "Professor at IIT Kanpur .I believe in transferring research outputs to society through entrepreneurial activities and have a good experience in this."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "http://home.iitk.ac.in/~blohani/resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -144,12 +144,13 @@ const educationInfo = {
       desc: "	Development of an image enhancement package.",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     },
+
     {
       schoolName: "Madan Mohan Malviya Engineering College, Gorakhpur",
       logo: require("./assets/images/madhan.png"),
       subHeader: "Bachelor of Engineering in Civil",
       duration: "Year:	1988",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Town and building planning for Jawahar Nagar Colony, Gorakhpur",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -182,30 +183,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
+     
+      role: "Associate Professor",
+      company: "Civil Engineering, IIT Kanpur",
+      companylogo: require("./assets/images/iitk.png"),
+      date: "	December 2007 to this date",
+      desc: "Indian Institute of Technology Kanpur (IIT Kanpur)  is a public technical university located in Kanpur, Uttar Pradesh, India. It was declared to be an Institute of National Importance by the Government of India under the Institutes of Technology Act.",
+     /* descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      ]*/
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    role: "	Assistant Professor",
+    company: "	Civil Engineering, IIT Kanpur",
+    companylogo: require("./assets/images/iitk.png"),
+    date: "	December 2002 to December 2007",
+    desc: "IIT Kanpur was ranked third among engineering colleges by India Today in 2021. It was ranked fourth among engineering colleges in India by the National Institutional Ranking Framework (NIRF) in 2020, and sixth overall."
+  },
+  
+  {
+    role: "Senior Lecturer",
+    company: "Institute of Technology,Banaras",
+    companylogo: require("./assets/images/iitbhu.png"),
+    date: "	December 1999 to December 2002",
+    desc: "Indian Institute of Technology (BHU) Varanasi (IIT BHU) is a public technical university located in Varanasi, Uttar Pradesh, India. Founded in 1919 as the Banaras Engineering College, it became the Institute of Technology, Banaras Hindu University in 1968."
+  },
+      {
+      role: "	Research Officer",
+      company: "ESSC, The University of Reading",
+      companylogo: require("./assets/images/ess.png"),
+      date: "	December 2002 to December 2007",
+      desc: "IIT Kanpur was ranked third among engineering colleges by India Today in 2021. It was ranked fourth among engineering colleges in India by the National Institutional Ranking Framework (NIRF) in 2020, and sixth overall."
     }
+    
   ]
 };
 
@@ -368,8 +379,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-512-2597413",
+  email_address: "blohani@iitk.ac.in"
 };
 
 // Twitter Section
@@ -388,6 +399,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
+
   openSource,
   bigProjects,
   achievementSection,
