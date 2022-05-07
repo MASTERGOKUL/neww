@@ -36,6 +36,16 @@ export default function Contact() {
                     href={"tel:" + contactInfo.number}
                   >
                     {contactInfo.number}
+                  
+                  </a>
+                  <br></br>
+                  <br></br>
+                  <a
+                    className="contact-detail"
+                    href={"tel:" + contactInfo.number2}
+                  >
+                    {contactInfo.number2}
+                  
                   </a>
                   <br />
                   <br />
@@ -66,7 +76,7 @@ export default function Contact() {
                 {contactInfo.website2}
               </a>
               <br />
-              <br />
+   <br />
               <SocialMedia />
             </div>
           </div>

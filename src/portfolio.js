@@ -23,8 +23,7 @@ const greeting = {
   username: " Dr.Bharat Lohani",
   title: "Hi, I'm Dr.Bharat Lohani",
   subTitle: emoji(
-    "Professor at IIT Kanpur .I believe in transferring research outputs to society through entrepreneurial activities and have a good experience in this."
-  ),
+    "Professor , Department of Civil Engineering, Indian Institute of Technology, Kanpur - 208016, India. Executive Director GEOKNO India Pvt. Ltd."),
   resumeLink:
     "http://home.iitk.ac.in/~blohani/resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -648,7 +647,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-512-2597413",
+  number: "+91-512-2597413 ",
+   number2:"+91 945346658",
   email_address: "blohani@iitk.ac.in",
   website1:"https://www.iitk.ac.in/",
   website2:"https://www.iitk.ac.in/civil/"

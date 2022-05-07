@@ -29,6 +29,7 @@ export default function Greeting() {
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
+              
                 className={
                   isDark
                     ? "dark-mode greeting-text-p"
@@ -51,12 +52,12 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            
+          
               <img
                 alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                src={require("../../assets/images/bharatlohani5.png")}
               ></img>
-          
+            
           </div>
         </div>
       </div>
