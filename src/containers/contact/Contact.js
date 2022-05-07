@@ -47,6 +47,24 @@ export default function Contact() {
               >
                 {contactInfo.email_address}
               </a>
+              <br></br>
+              <br></br>
+              <a
+                className="contact-detail-email"
+                href={contactInfo.website1}
+                target={'_blank'}
+                >
+                {contactInfo.website1}
+              </a>
+                <br></br>
+                <br></br>
+              <a
+                className="contact-detail-email"
+                href={contactInfo.website2}
+                target={'_blank'}
+              >
+                {contactInfo.website2}
+              </a>
               <br />
               <br />
               <SocialMedia />

@@ -40,6 +40,7 @@ const socialMediaLinks = {
   facebook: "#",
   medium: "#",
   stackoverflow: "#",
+  instagram:'#',
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -209,6 +210,60 @@ const workExperiences = {
     date: "	December 1999 to December 2002",
     desc: "Indian Institute of Technology (BHU) Varanasi (IIT BHU) is a public technical university located in Varanasi, Uttar Pradesh, India. Founded in 1919 as the Banaras Engineering College, it became the Institute of Technology, Banaras Hindu University in 1968."
   },
+  {
+      role: "	Research Officer",
+      company: "ESSC, The University of Reading",
+      companylogo: require("./assets/images/ess.png"),
+      date: "	December 2002 to December 2007",
+      desc: "IIT Kanpur was ranked third among engineering colleges by India Today in 2021. It was ranked fourth among engineering colleges in India by the National Institutional Ranking Framework (NIRF) in 2020, and sixth overall."
+  },
+  {
+      role: "Postgraduate Student",
+      company: "ESSC, The University of Reading",
+      companylogo: require("./assets/images/ess.png"),
+      date: "	December 2002 to December 2007",
+      desc: "IIT Kanpur was ranked third among engineering colleges by India Today in 2021. It was ranked fourth among engineering colleges in India by the National Institutional Ranking Framework (NIRF) in 2020, and sixth overall."
+  },
+  {
+      role: "	Lecturer",
+      company: "Institute of Technology, Banaras Hindu University,",
+      companylogo: require("./assets/images/iitbhu.png"),
+      date: "1990 to 1995",
+      desc: "Indian Institute of Technology (BHU) Varanasi (IIT BHU) is a public technical university located in Varanasi, Uttar Pradesh, India. Founded in 1919 as the Banaras Engineering College, it became the Institute of Technology, Banaras Hindu University in 1968."
+  }
+    
+  ]
+};
+const workExperiences2 = {
+  display: true, //Set it to true to show workExperiences Section
+  experience: [
+    {
+     
+      role: "ap",
+      company: "Civil Engineering, IIT Kanpur",
+      companylogo: require("./assets/images/iitk.png"),
+      date: "	December 2007 to this date",
+      desc: "Indian Institute of Technology Kanpur (IIT Kanpur)  is a public technical university located in Kanpur, Uttar Pradesh, India. It was declared to be an Institute of National Importance by the Government of India under the Institutes of Technology Act.",
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+    role: "	 Professor",
+    company: "	Civil Engineering, IIT Kanpur",
+    companylogo: require("./assets/images/iitk.png"),
+    date: "	December 2002 to December 2007",
+    desc: "IIT Kanpur was ranked third among engineering colleges by India Today in 2021. It was ranked fourth among engineering colleges in India by the National Institutional Ranking Framework (NIRF) in 2020, and sixth overall."
+  },
+  
+  {
+    role: "S Lecturer",
+    company: "Institute of Technology,Banaras",
+    companylogo: require("./assets/images/iitbhu.png"),
+    date: "	December 1999 to December 2002",
+    desc: "Indian Institute of Technology (BHU) Varanasi (IIT BHU) is a public technical university located in Varanasi, Uttar Pradesh, India. Founded in 1919 as the Banaras Engineering College, it became the Institute of Technology, Banaras Hindu University in 1968."
+  },
       {
       role: "	Research Officer",
       company: "ESSC, The University of Reading",
@@ -216,6 +271,220 @@ const workExperiences = {
       date: "	December 2002 to December 2007",
       desc: "IIT Kanpur was ranked third among engineering colleges by India Today in 2021. It was ranked fourth among engineering colleges in India by the National Institutional Ranking Framework (NIRF) in 2020, and sixth overall."
     }
+    
+  ],
+  // experience ug
+  TaughtexperienceUG: [
+    {
+     
+      role: "Tutor",//taught as
+      company: "Indian Institute of Technology, Kanpur.",
+      companylogo: require("./assets/images/tutor.jpg"),
+      date: "Number of Times:	1",//Number of Times
+      desc: " Engineering Drawing",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Tutor",//taught as
+      company: "Indian Institute of Technology, Kanpur.",
+      companylogo: require("./assets/images/iitk.png"),
+      date: "Number of Times:	1",//Number of Times
+      desc: " Numerical Methods",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "	Instructor(Self Developed)",//taught as
+      company: "Institute of Technology, BHU.",
+      companylogo: require("./assets/images/iitbhu.png"),
+      date: "Number of Times:	2",//Number of Times
+      desc: " Remote Sensing in Civil Engineering",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "	Instructor",//taught as
+      company: "Indian Institute of Technology, Kanpur.",
+      companylogo: require("./assets/images/tutor-student (1).png"),
+      date: "Number of Times:	1",//Number of Times
+      desc: " Surveying Camp",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "	Instructor",//taught as
+      company: "Indian Institute of Technology, Kanpur.",
+      companylogo: require("./assets/images/iitk.png"),
+      date: "Number of Times:	2",//Number of Times
+      desc: " Geoiniformatics",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "	Instructor(Self Developed)",//taught as
+      company: "	Institute of Technology, BHU.",
+      companylogo: require("./assets/images/iitbhu.png"),
+      date: "Number of Times:	6",//Number of Times
+      desc: " Surveying Practice II",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Instructor",//taught as
+      company: "	Institute of Technology, BHU.",
+      companylogo: require("./assets/images/iitbhu.png"),
+      date: "Number of Times:	1",//Number of Times
+      desc: " Transportation Engineering I",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Instructor(Self Developed)",//taught as
+      company: "	Institute of Technology, BHU.",
+      companylogo: require("./assets/images/iitbhu.png"),
+      date: "Number of Times:	6",//Number of Times
+      desc: " Surveying II",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Instructor(Self Developed)",//taught as
+      company: "	Institute of Technology, BHU.",
+      companylogo: require("./assets/images/iitbhu.png"),
+      date: "Number of Times:	2",//Number of Times
+      desc: " Computer Applications in Civil Engineering",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Instructor",//taught as
+      company: "	Institute of Technology, BHU.",
+      companylogo: require("./assets/images/iitbhu.png"),
+      date: "Number of Times:	2",//Number of Times
+      desc: " Materials and Building Construction",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Instructor",//taught as
+      company: "	Institute of Technology, BHU.",
+      companylogo: require("./assets/images/iitbhu.png"),
+      date: "Number of Times:	8",//Number of Times
+      desc: " Surveying I",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Instructor",//taught as
+      company: "	Institute of Technology, BHU.",
+      companylogo: require("./assets/images/iitbhu.png"),
+      date: "Number of Times:	3",//Number of Times
+      desc: " Building Planning, Drawing, and Estimation",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Instructor",//taught as
+      company: "	Institute of Technology, BHU.",
+      companylogo: require("./assets/images/iitbhu.png"),
+      date: "Number of Times:	8",//Number of Times
+      desc: "Surveying Practice I",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    }
+    
+    
+    
+  ],
+  TaughtexperiencePg:[
+    {
+     
+      role: "Instructor",//taught as
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/instructor1.jpg"),
+      date: "Number of Times:	1",//Number of Times
+      desc: "Machine Processing of Remotely Sensed Data",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Instructor(Self Developed)",//taught as
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/instructor.jpg"),
+      date: "Number of Times:	2",//Number of Times
+      desc: "Precision Remote Sensing",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Instructor",//taught as
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/instructor1.png"),
+      date: "Number of Times:	4",//Number of Times
+      desc: "Introduction to Remote Sensing and GIS",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Instructor(Self Developed)",//taught as
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/instructor.jpg"),
+      date: "Number of Times:	7",//Number of Times
+      desc: "Remote Sensing Application in Water Resources",//Course no. Name:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    }
+    
     
   ]
 };
@@ -359,7 +628,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -372,7 +641,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -380,7 +649,9 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-512-2597413",
-  email_address: "blohani@iitk.ac.in"
+  email_address: "blohani@iitk.ac.in",
+  website1:"https://www.iitk.ac.in/",
+  website2:"https://www.iitk.ac.in/civil/"
 };
 
 // Twitter Section
@@ -399,7 +670,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-
+  workExperiences2,
   openSource,
   bigProjects,
   achievementSection,
