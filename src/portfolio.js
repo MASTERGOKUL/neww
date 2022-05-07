@@ -180,7 +180,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
      
@@ -278,7 +278,7 @@ const workExperiences2 = {
      
       role: "Tutor",//taught as
       company: "Indian Institute of Technology, Kanpur.",
-      companylogo: require("./assets/images/tutor.jpg"),
+      companylogo: require("./assets/images/eg.png"),
       date: "Number of Times:	1",//Number of Times
       desc: " Engineering Drawing",//Course no. Name:
      /* descBullets: [
@@ -302,7 +302,7 @@ const workExperiences2 = {
      
       role: "	Instructor(Self Developed)",//taught as
       company: "Institute of Technology, BHU.",
-      companylogo: require("./assets/images/iitbhu.png"),
+      companylogo: require("./assets/images/rs.jpg"),
       date: "Number of Times:	2",//Number of Times
       desc: " Remote Sensing in Civil Engineering",//Course no. Name:
      /* descBullets: [
@@ -314,7 +314,7 @@ const workExperiences2 = {
      
       role: "	Instructor",//taught as
       company: "Indian Institute of Technology, Kanpur.",
-      companylogo: require("./assets/images/tutor-student (1).png"),
+      companylogo: require("./assets/images/sur.jpg"),
       date: "Number of Times:	1",//Number of Times
       desc: " Surveying Camp",//Course no. Name:
      /* descBullets: [
@@ -326,7 +326,7 @@ const workExperiences2 = {
      
       role: "	Instructor",//taught as
       company: "Indian Institute of Technology, Kanpur.",
-      companylogo: require("./assets/images/iitk.png"),
+      companylogo: require("./assets/images/gi.jpg"),
       date: "Number of Times:	2",//Number of Times
       desc: " Geoiniformatics",//Course no. Name:
      /* descBullets: [
@@ -350,7 +350,7 @@ const workExperiences2 = {
      
       role: "Instructor",//taught as
       company: "	Institute of Technology, BHU.",
-      companylogo: require("./assets/images/iitbhu.png"),
+      companylogo: require("./assets/images/te.svg"),
       date: "Number of Times:	1",//Number of Times
       desc: " Transportation Engineering I",//Course no. Name:
      /* descBullets: [
