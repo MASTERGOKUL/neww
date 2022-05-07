@@ -131,10 +131,10 @@ const educationInfo = {
       logo: require("./assets/images/ess.png"),
       subHeader: "Doctrate in Remote Sensing & Environmental Science",
       duration: "Year:	1999",
-      desc: "Application of airborne remote sensing to the study of intertidal geomorphology.",
+      desc: "Thesis:",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Application of airborne remote sensing to the study of intertidal geomorphology."
+        
       ]
     },
     {
@@ -142,8 +142,8 @@ const educationInfo = {
       logo: require("./assets/images/rookie.png"),
       subHeader: "Master of Engineering in 	Remote Sensing & Photogrammetric ",
       duration: "Year:	1990",
-      desc: "	Development of an image enhancement package.",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Thesis:",
+      descBullets: ["	Development of an image enhancement package."]
     },
 
     {
@@ -151,8 +151,8 @@ const educationInfo = {
       logo: require("./assets/images/madhan.png"),
       subHeader: "Bachelor of Engineering in Civil",
       duration: "Year:	1988",
-      desc: "Town and building planning for Jawahar Nagar Colony, Gorakhpur",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Thesis:",
+      descBullets: ["Town and building planning for Jawahar Nagar Colony, Gorakhpur"]
     }
   ]
 };
@@ -160,7 +160,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -181,7 +181,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
      
@@ -235,7 +235,7 @@ const workExperiences = {
   ]
 };
 const workExperiences2 = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
      
@@ -440,7 +440,7 @@ const workExperiences2 = {
      
       role: "Instructor",//taught as
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/instructor1.jpg"),
+      companylogo: require("./assets/images/iitk.png"),
       date: "Number of Times:	1",//Number of Times
       desc: "Machine Processing of Remotely Sensed Data",//Course no. Name:
      /* descBullets: [
@@ -452,7 +452,7 @@ const workExperiences2 = {
      
       role: "Instructor(Self Developed)",//taught as
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/instructor.jpg"),
+      companylogo: require("./assets/images/iitk.png"),
       date: "Number of Times:	2",//Number of Times
       desc: "Precision Remote Sensing",//Course no. Name:
      /* descBullets: [
@@ -464,7 +464,7 @@ const workExperiences2 = {
      
       role: "Instructor",//taught as
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/instructor1.png"),
+      companylogo: require("./assets/images/iitk.png"),
       date: "Number of Times:	4",//Number of Times
       desc: "Introduction to Remote Sensing and GIS",//Course no. Name:
      /* descBullets: [
@@ -476,7 +476,7 @@ const workExperiences2 = {
      
       role: "Instructor(Self Developed)",//taught as
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/instructor.jpg"),
+      companylogo: require("./assets/images/iitk.png"),
       date: "Number of Times:	7",//Number of Times
       desc: "Remote Sensing Application in Water Resources",//Course no. Name:
      /* descBullets: [
@@ -609,7 +609,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -658,7 +658,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
