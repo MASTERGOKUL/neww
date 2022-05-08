@@ -4,6 +4,7 @@ import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import {workExperiences2} from "../../portfolio";
 import {Fade} from "react-reveal"
 import StyleContext from "../../contexts/StyleContext";
+import LineAnimation from "./anim";
  function  AcademicUG(){
     const {isDark} = useContext(StyleContext);
     return(
@@ -11,7 +12,7 @@ import StyleContext from "../../contexts/StyleContext";
         <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="workExperience">
             <div>
-              <h1 className="experience-heading">Course Taught UG</h1>
+            <LineAnimation name={"ourse Taught UG"}/>
               <div className="experience-cards-div1">
                 {workExperiences2.TaughtexperienceUG.map((card, i) => {
                     return (

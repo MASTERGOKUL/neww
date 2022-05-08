@@ -65,6 +65,7 @@ export default function EducationCard({school}) {
       <Slide left duration={2000}>
         <div className="education-card-border"></div>
       </Slide>
+  
     </div>
   );
 }

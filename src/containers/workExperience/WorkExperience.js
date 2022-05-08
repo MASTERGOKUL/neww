@@ -13,10 +13,10 @@ export default function WorkExperience() {
   if (workExperiences.display) {
     return (
       <div id="experience">
-       <AcademicExperiece/>
+        <AcademicExperiece/>
 
          <AcademicUG/>
-      <AcademicPg/>
+        <AcademicPg/>
       
       </div>
     );
