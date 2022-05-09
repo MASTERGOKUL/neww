@@ -1,12 +1,12 @@
 import React, {useContext} from "react";
 import { useState } from "react";
-import "./WorkExperience.scss";
-import ExperienceCard from "../../components/experienceCard/ExperienceCard";
-import {workExperiences} from "../../portfolio";
+import "../WorkExperience.scss";
+import ExperienceCard from "F:/gokul/neww/src/components/experienceCard/ExperienceCard.js";
+import {workExperiences2} from "../../../portfolio.js";
 import {Fade} from "react-reveal"
-import StyleContext from "../../contexts/StyleContext";
-import LineAnimation,{togg} from "./anim";
-const  Academic =()=>{
+import StyleContext from "F:/gokul/neww/src/contexts/StyleContext.js";
+import LineAnimation,{togg} from "../anim";
+const  PhdRe =()=>{
   const {isDark} = useContext(StyleContext);
   const [togg,setTogg]=useState(false);
   const handleClick =()=>{
@@ -18,9 +18,9 @@ const  Academic =()=>{
 <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="workExperience">
             <div>
-            <a onClick={handleClick}><LineAnimation name={"Academic Experience"} /></a>
+            <a onClick={handleClick}><LineAnimation name={"Phd Guidenence"} /></a>
               <div className="experience-cards-div" style ={{display:togg?'grid':'none'}}>
-                {workExperiences.experience.map((card, i) => {
+                {workExperiences2.phdre.map((card, i) => {
                   return (
                     
                     <ExperienceCard
@@ -47,6 +47,6 @@ const  Academic =()=>{
         </Fade>
     );
 }
-export default Academic;
+export default PhdRe;
 
 

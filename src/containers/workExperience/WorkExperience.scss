@@ -3,10 +3,14 @@
   grid-template-columns: repeat(3, minmax(290px,1fr));
   gap: 1rem 1rem;
 }
-.experience-cards-div1 {
+.experience-cards-div3 {
   display: grid;
   grid-template-columns: repeat(4, minmax(290px,1fr));
   gap: 1rem 1rem;
+}
+.experience-cards-div1 {
+  display: inline;
+padding-right: 1500px;
 }
 
 .experience-heading {

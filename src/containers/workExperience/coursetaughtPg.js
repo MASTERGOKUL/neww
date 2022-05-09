@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, {useContext,useState} from "react";
 import "./WorkExperience.scss";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import {workExperiences2} from "../../portfolio";
@@ -6,15 +6,19 @@ import {Fade} from "react-reveal"
 import StyleContext from "../../contexts/StyleContext";
 import LineAnimation from "./anim";
 export default function AcademicPg (){
+  const [togg,setTogg]=useState(false);
+  const handleClick =()=>{
+    setTogg(!togg);
+  }
     const {isDark} = useContext(StyleContext);
     return(
 
  <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="workExperience">
             <div>
-            <LineAnimation name={"Course Taught PG"}/>
+            <a onClick={handleClick}><LineAnimation name={"Course Taught PG"}/></a>
              
-              <div className="experience-cards-div">
+              <div className="experience-cards-div" style ={{display:togg?'grid':'none'}}>
                 {workExperiences2.TaughtexperiencePg.map((card, i) => {
                   return (
                   

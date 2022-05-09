@@ -290,7 +290,7 @@ const workExperiences2 = {
      
       role: "Tutor",//taught as
       company: "Indian Institute of Technology, Kanpur.",
-      companylogo: require("./assets/images/iitk.png"),
+      companylogo: require("./assets/images/nm.webp"),
       date: "Number of Times:	1",//Number of Times
       desc: " Numerical Methods",//Course no. Name:
      /* descBullets: [
@@ -338,7 +338,7 @@ const workExperiences2 = {
      
       role: "	Instructor(Self Developed)",//taught as
       company: "	Institute of Technology, BHU.",
-      companylogo: require("./assets/images/iitbhu.png"),
+      companylogo: require("./assets/images/su2.png"),
       date: "Number of Times:	6",//Number of Times
       desc: " Surveying Practice II",//Course no. Name:
      /* descBullets: [
@@ -362,7 +362,7 @@ const workExperiences2 = {
      
       role: "Instructor(Self Developed)",//taught as
       company: "	Institute of Technology, BHU.",
-      companylogo: require("./assets/images/iitbhu.png"),
+      companylogo: require("./assets/images/su3.png"),
       date: "Number of Times:	6",//Number of Times
       desc: " Surveying II",//Course no. Name:
      /* descBullets: [
@@ -374,7 +374,7 @@ const workExperiences2 = {
      
       role: "Instructor(Self Developed)",//taught as
       company: "	Institute of Technology, BHU.",
-      companylogo: require("./assets/images/iitbhu.png"),
+      companylogo: require("./assets/images/ca.png"),
       date: "Number of Times:	2",//Number of Times
       desc: " Computer Applications in Civil Engineering",//Course no. Name:
      /* descBullets: [
@@ -386,7 +386,7 @@ const workExperiences2 = {
      
       role: "Instructor",//taught as
       company: "	Institute of Technology, BHU.",
-      companylogo: require("./assets/images/iitbhu.png"),
+      companylogo: require("./assets/images/mc.png"),
       date: "Number of Times:	2",//Number of Times
       desc: " Materials and Building Construction",//Course no. Name:
      /* descBullets: [
@@ -398,7 +398,7 @@ const workExperiences2 = {
      
       role: "Instructor",//taught as
       company: "	Institute of Technology, BHU.",
-      companylogo: require("./assets/images/iitbhu.png"),
+      companylogo: require("./assets/images/su4.png"),
       date: "Number of Times:	8",//Number of Times
       desc: " Surveying I",//Course no. Name:
      /* descBullets: [
@@ -410,7 +410,7 @@ const workExperiences2 = {
      
       role: "Instructor",//taught as
       company: "	Institute of Technology, BHU.",
-      companylogo: require("./assets/images/iitbhu.png"),
+      companylogo: require("./assets/images/bp.png"),
       date: "Number of Times:	3",//Number of Times
       desc: " Building Planning, Drawing, and Estimation",//Course no. Name:
      /* descBullets: [
@@ -422,7 +422,7 @@ const workExperiences2 = {
      
       role: "Instructor",//taught as
       company: "	Institute of Technology, BHU.",
-      companylogo: require("./assets/images/iitbhu.png"),
+      companylogo: require("./assets/images/sur.jpg"),
       date: "Number of Times:	8",//Number of Times
       desc: "Surveying Practice I",//Course no. Name:
      /* descBullets: [
@@ -439,7 +439,7 @@ const workExperiences2 = {
      
       role: "Instructor",//taught as
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/iitk.png"),
+      companylogo: require("./assets/images/rs1.png"),
       date: "Number of Times:	1",//Number of Times
       desc: "Machine Processing of Remotely Sensed Data",//Course no. Name:
      /* descBullets: [
@@ -451,7 +451,7 @@ const workExperiences2 = {
      
       role: "Instructor(Self Developed)",//taught as
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/iitk.png"),
+      companylogo: require("./assets/images/rs2.png"),
       date: "Number of Times:	2",//Number of Times
       desc: "Precision Remote Sensing",//Course no. Name:
      /* descBullets: [
@@ -463,7 +463,7 @@ const workExperiences2 = {
      
       role: "Instructor",//taught as
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/iitk.png"),
+      companylogo: require("./assets/images/rs3.png"),
       date: "Number of Times:	4",//Number of Times
       desc: "Introduction to Remote Sensing and GIS",//Course no. Name:
      /* descBullets: [
@@ -475,7 +475,7 @@ const workExperiences2 = {
      
       role: "Instructor(Self Developed)",//taught as
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/iitk.png"),
+      companylogo: require("./assets/images/rs4.png"),
       date: "Number of Times:	7",//Number of Times
       desc: "Remote Sensing Application in Water Resources",//Course no. Name:
      /* descBullets: [
@@ -483,6 +483,381 @@ const workExperiences2 = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]*/
     }
+    
+    
+  ],
+  phdre:[
+    {
+     
+      role: "Name : Susham Biswas",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "In progress",//Number of Times
+      desc: "	Noise propogation modelling with high resolution obstruction information using LiDAR under GIS environment",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name : Suddhasheel Ghosh",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "In progress",//Number of Times
+      desc: "Framework for an interactive and immersive visualization system for LiDAR Data",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    }
+    
+    
+    
+  ],
+  mre:[
+    {
+     
+      role: "Name :   Bharath Gandhi",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  August 2008",//Number of Times
+      desc: "	  Development of Remote Sensing and GIS based approach for Archaeological Investigation in Varanasi and its surrounding,",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :   N Balaji",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  June 2008",//Number of Times
+      desc: "  Development of Web-based Spatial Information System for IIT Kanpur",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :  Surya Aditya Y",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  June 2008",//Number of Times
+      desc: "High resolution remote sensing data for noise modeling using GIS",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :  Abishek Kumar Singh",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  June 2007",//Number of Times
+      desc: "  Development of point cloud simulator for LLRI onboard Chandrayaan -1",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :   Nishant Bhatnagar",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  June 2007",//Number of Times
+      desc: "  LiDAR return waveform simulation for LLRI instrument onboard Chandrayan-1",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :Raman Kumar",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  may 2007",//Number of Times
+      desc: "   A model for determination of GPS satellite visibility for predicting GDOP using LiDAR data",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :   P. Parameshwar Reddy",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  June 2006",//Number of Times
+      desc: "   Mathematical simulator for airborne altimetric LiDAR",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :  Ajay Dashora",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "September, 2005",//Number of Times
+      desc: "   An investigation on photogrammetric modelling of CORONA satellite images for mapping purposes",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :Rajneesh Singh",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  May, 2005",//Number of Times
+      desc: "   Detail investigations on building identification from LiDAR data using hough transform",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :   Ekta Amar",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: " May, 2005",//Number of Times
+      desc: "   Building reconstuction through DLT using historical photographs and laser scanning",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :    Parvesh Kumari",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  May 2004",//Number of Times
+      desc: "  Extraction of planar surface from 3D point clouds for building reconstruction",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :    Rajesh Khatri ( IT - BHU) ",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "   April, 2003 ",//Number of Times
+      desc: "   A study of scaling characteristics of river meandering using remote sensing",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :   Rajeev Kumar ( IT - BHU)",//name
+      company: "IT_BHU.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "   April, 2003",//Number of Times
+      desc: " Ground water prospecting for a pilot area in Sonbhadra district using remote sensing & GIS",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :     Anand Singh Chauhan ( IT- BHU)",//name
+      company: "IT_BHU.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  April, 2002",//Number of Times
+      desc: " Algorithm develoment for automatic quantification of drainage network geomorphological parameters ",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    }
+    
+    
+    
+  ],
+  bre:[
+    {
+     
+      role: "Name :   Bharath Gandhi",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  August 2008",//Number of Times
+      desc: "	  Development of Remote Sensing and GIS based approach for Archaeological Investigation in Varanasi and its surrounding,",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :   N Balaji",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  June 2008",//Number of Times
+      desc: "  Development of Web-based Spatial Information System for IIT Kanpur",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :  Surya Aditya Y",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  June 2008",//Number of Times
+      desc: "High resolution remote sensing data for noise modeling using GIS",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :  Abishek Kumar Singh",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  June 2007",//Number of Times
+      desc: "  Development of point cloud simulator for LLRI onboard Chandrayaan -1",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :   Nishant Bhatnagar",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  June 2007",//Number of Times
+      desc: "  LiDAR return waveform simulation for LLRI instrument onboard Chandrayan-1",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :Raman Kumar",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  may 2007",//Number of Times
+      desc: "   A model for determination of GPS satellite visibility for predicting GDOP using LiDAR data",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :   P. Parameshwar Reddy",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  June 2006",//Number of Times
+      desc: "   Mathematical simulator for airborne altimetric LiDAR",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :  Ajay Dashora",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "September, 2005",//Number of Times
+      desc: "   An investigation on photogrammetric modelling of CORONA satellite images for mapping purposes",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :Rajneesh Singh",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  May, 2005",//Number of Times
+      desc: "   Detail investigations on building identification from LiDAR data using hough transform",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :   Ekta Amar",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: " May, 2005",//Number of Times
+      desc: "   Building reconstuction through DLT using historical photographs and laser scanning",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :    Parvesh Kumari",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  May 2004",//Number of Times
+      desc: "  Extraction of planar surface from 3D point clouds for building reconstruction",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :    Rajesh Khatri ( IT - BHU) ",//name
+      company: "Indian Institute of Technology Kanpur.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "   April, 2003 ",//Number of Times
+      desc: "   A study of scaling characteristics of river meandering using remote sensing",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :   Rajeev Kumar ( IT - BHU)",//name
+      company: "IT_BHU.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "   April, 2003",//Number of Times
+      desc: " Ground water prospecting for a pilot area in Sonbhadra district using remote sensing & GIS",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    },
+    {
+     
+      role: "Name :     Anand Singh Chauhan ( IT- BHU)",//name
+      company: "IT_BHU.",
+      companylogo: require("./assets/images/rs1.png"),
+      date: "  April, 2002",//Number of Times
+      desc: " Algorithm develoment for automatic quantification of drainage network geomorphological parameters ",//title:
+     /* descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]*/
+    }
+    
     
     
   ]
