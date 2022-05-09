@@ -117,7 +117,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -491,7 +491,7 @@ const workExperiences2 = {
      
       role: "Name : Susham Biswas",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/ligi.png"),
       date: "In progress",//Number of Times
       desc: "	Noise propogation modelling with high resolution obstruction information using LiDAR under GIS environment",//title:
      /* descBullets: [
@@ -503,7 +503,7 @@ const workExperiences2 = {
      
       role: "Name : Suddhasheel Ghosh",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/livi.png"),
       date: "In progress",//Number of Times
       desc: "Framework for an interactive and immersive visualization system for LiDAR Data",//title:
      /* descBullets: [
@@ -520,7 +520,7 @@ const workExperiences2 = {
      
       role: "Name :   Bharath Gandhi",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/rs2.png"),
       date: "  August 2008",//Number of Times
       desc: "	  Development of Remote Sensing and GIS based approach for Archaeological Investigation in Varanasi and its surrounding,",//title:
      /* descBullets: [
@@ -532,7 +532,7 @@ const workExperiences2 = {
      
       role: "Name :   N Balaji",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/sis.png"),
       date: "  June 2008",//Number of Times
       desc: "  Development of Web-based Spatial Information System for IIT Kanpur",//title:
      /* descBullets: [
@@ -544,7 +544,7 @@ const workExperiences2 = {
      
       role: "Name :  Surya Aditya Y",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/rs3.png"),
       date: "  June 2008",//Number of Times
       desc: "High resolution remote sensing data for noise modeling using GIS",//title:
      /* descBullets: [
@@ -556,7 +556,7 @@ const workExperiences2 = {
      
       role: "Name :  Abishek Kumar Singh",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/c1.png"),
       date: "  June 2007",//Number of Times
       desc: "  Development of point cloud simulator for LLRI onboard Chandrayaan -1",//title:
      /* descBullets: [
@@ -568,7 +568,7 @@ const workExperiences2 = {
      
       role: "Name :   Nishant Bhatnagar",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/c1.png"),
       date: "  June 2007",//Number of Times
       desc: "  LiDAR return waveform simulation for LLRI instrument onboard Chandrayan-1",//title:
      /* descBullets: [
@@ -592,7 +592,7 @@ const workExperiences2 = {
      
       role: "Name :   P. Parameshwar Reddy",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/air.png"),
       date: "  June 2006",//Number of Times
       desc: "   Mathematical simulator for airborne altimetric LiDAR",//title:
      /* descBullets: [
@@ -604,7 +604,7 @@ const workExperiences2 = {
      
       role: "Name :  Ajay Dashora",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/cor.png"),
       date: "September, 2005",//Number of Times
       desc: "   An investigation on photogrammetric modelling of CORONA satellite images for mapping purposes",//title:
      /* descBullets: [
@@ -616,7 +616,7 @@ const workExperiences2 = {
      
       role: "Name :Rajneesh Singh",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/ligi.png"),
       date: "  May, 2005",//Number of Times
       desc: "   Detail investigations on building identification from LiDAR data using hough transform",//title:
      /* descBullets: [
@@ -628,7 +628,7 @@ const workExperiences2 = {
      
       role: "Name :   Ekta Amar",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/livi.png"),
       date: " May, 2005",//Number of Times
       desc: "   Building reconstuction through DLT using historical photographs and laser scanning",//title:
      /* descBullets: [
@@ -640,7 +640,7 @@ const workExperiences2 = {
      
       role: "Name :    Parvesh Kumari",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/3d.png"),
       date: "  May 2004",//Number of Times
       desc: "  Extraction of planar surface from 3D point clouds for building reconstruction",//title:
      /* descBullets: [
@@ -652,7 +652,7 @@ const workExperiences2 = {
      
       role: "Name :    Rajesh Khatri ( IT - BHU) ",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/rs4.png"),
       date: "   April, 2003 ",//Number of Times
       desc: "   A study of scaling characteristics of river meandering using remote sensing",//title:
      /* descBullets: [
@@ -676,7 +676,7 @@ const workExperiences2 = {
      
       role: "Name :     Anand Singh Chauhan ( IT- BHU)",//name
       company: "IT_BHU.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/de.png"),
       date: "  April, 2002",//Number of Times
       desc: " Algorithm develoment for automatic quantification of drainage network geomorphological parameters ",//title:
      /* descBullets: [
@@ -693,7 +693,7 @@ const workExperiences2 = {
      
       role: "Name :   Bharath Gandhi",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/ligi.png"),
       date: "  August 2008",//Number of Times
       desc: "	  Development of Remote Sensing and GIS based approach for Archaeological Investigation in Varanasi and its surrounding,",//title:
      /* descBullets: [
@@ -705,7 +705,7 @@ const workExperiences2 = {
      
       role: "Name :   N Balaji",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/sis.png"),
       date: "  June 2008",//Number of Times
       desc: "  Development of Web-based Spatial Information System for IIT Kanpur",//title:
      /* descBullets: [
@@ -717,7 +717,7 @@ const workExperiences2 = {
      
       role: "Name :  Surya Aditya Y",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/rs2.png"),
       date: "  June 2008",//Number of Times
       desc: "High resolution remote sensing data for noise modeling using GIS",//title:
      /* descBullets: [
@@ -729,7 +729,7 @@ const workExperiences2 = {
      
       role: "Name :  Abishek Kumar Singh",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/livi.png"),
       date: "  June 2007",//Number of Times
       desc: "  Development of point cloud simulator for LLRI onboard Chandrayaan -1",//title:
      /* descBullets: [
@@ -741,7 +741,7 @@ const workExperiences2 = {
      
       role: "Name :   Nishant Bhatnagar",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/livi.png"),
       date: "  June 2007",//Number of Times
       desc: "  LiDAR return waveform simulation for LLRI instrument onboard Chandrayan-1",//title:
      /* descBullets: [
@@ -753,7 +753,7 @@ const workExperiences2 = {
      
       role: "Name :Raman Kumar",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/gdop.png"),
       date: "  may 2007",//Number of Times
       desc: "   A model for determination of GPS satellite visibility for predicting GDOP using LiDAR data",//title:
      /* descBullets: [
@@ -765,7 +765,7 @@ const workExperiences2 = {
      
       role: "Name :   P. Parameshwar Reddy",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/air.png"),
       date: "  June 2006",//Number of Times
       desc: "   Mathematical simulator for airborne altimetric LiDAR",//title:
      /* descBullets: [
@@ -777,7 +777,7 @@ const workExperiences2 = {
      
       role: "Name :  Ajay Dashora",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/cor.png"),
       date: "September, 2005",//Number of Times
       desc: "   An investigation on photogrammetric modelling of CORONA satellite images for mapping purposes",//title:
      /* descBullets: [
@@ -789,7 +789,7 @@ const workExperiences2 = {
      
       role: "Name :Rajneesh Singh",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/ligi.png"),
       date: "  May, 2005",//Number of Times
       desc: "   Detail investigations on building identification from LiDAR data using hough transform",//title:
      /* descBullets: [
@@ -801,7 +801,7 @@ const workExperiences2 = {
      
       role: "Name :   Ekta Amar",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/dlt.png"),
       date: " May, 2005",//Number of Times
       desc: "   Building reconstuction through DLT using historical photographs and laser scanning",//title:
      /* descBullets: [
@@ -813,7 +813,7 @@ const workExperiences2 = {
      
       role: "Name :    Parvesh Kumari",//name
       company: "Indian Institute of Technology Kanpur.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/3d.png"),
       date: "  May 2004",//Number of Times
       desc: "  Extraction of planar surface from 3D point clouds for building reconstruction",//title:
      /* descBullets: [
@@ -837,7 +837,7 @@ const workExperiences2 = {
      
       role: "Name :   Rajeev Kumar ( IT - BHU)",//name
       company: "IT_BHU.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/rs4.png"),
       date: "   April, 2003",//Number of Times
       desc: " Ground water prospecting for a pilot area in Sonbhadra district using remote sensing & GIS",//title:
      /* descBullets: [
@@ -849,7 +849,7 @@ const workExperiences2 = {
      
       role: "Name :     Anand Singh Chauhan ( IT- BHU)",//name
       company: "IT_BHU.",
-      companylogo: require("./assets/images/rs1.png"),
+      companylogo: require("./assets/images/de.png"),
       date: "  April, 2002",//Number of Times
       desc: " Algorithm develoment for automatic quantification of drainage network geomorphological parameters ",//title:
      /* descBullets: [
@@ -878,9 +878,9 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/air.png"),
+      projectName: "Limulator  (Airborne Altimetric LiDAR Simulator) ",
+      projectDesc: "Limulator aims at generating LiDAR data as per user specifications. The user is prompted to create a terrain of his/her choice using a library and to choose aircraft trajectory and sensor parameters. The simulator generates LiDAR data similar to a real LiDAR sensor for further display and analysis. The Limulator can be useful to instructors and students to generate variety of LiDAR data for experimentation. The readily available accurate ground truth and the ability to produce LiDAR data with different characteristics make this tool also suitable for algorithm (e.g. information extraction) testing. ",
       footerLink: [
         {
           name: "Visit Website",
@@ -890,9 +890,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/lidar.jpg"),
+      projectName: "LASUtility Information",
+      projectDesc: "Provides a range of utilities to work with LiDAR LAS format files, e.g. (1) displaying LAS files in both graphical and text format (2) trimming data files as per the selected area of interest on graphical display or as per the given set of data records, (3) stitching several LAS files together to form a large LAS file, (4) converting the LAS file to ASCII or vice versa etc.",
       footerLink: [
         {
           name: "Visit Website",
@@ -959,7 +959,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section

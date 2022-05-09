@@ -8,7 +8,9 @@ import AcademicUG from './CourseTaught';
 import AcademicPg from "./coursetaughtPg";
 import Reserach from "./reaserrch guidenence/re";
 import CONference from "./conference.js";
-import Administrative from "./administrative";
+import Administrative from "./adiministrative.js/administrative";
+import ConEducation from "./conEducation";
+import ConEducationAsRePerson from "./conEduAsResoursePerson";
 export default function WorkExperience() {
  
   if (workExperiences.display) {
@@ -21,6 +23,8 @@ export default function WorkExperience() {
       <Reserach/>
       <InvitedLecture/>
       <CONference/>
+      <ConEducation/>
+      <ConEducationAsRePerson/>
       <Administrative/>
       </div>
     );

@@ -1,9 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import "./WorkExperience.scss";
-
+import "../WorkExperience.scss";
 import {Fade} from "react-reveal"
-import LineAnimation from "./anim";
+import LineAnimation from "../anim";
 const  Administrative =()=>{
 
   const [togg,setTogg]=useState(false);
@@ -19,10 +18,11 @@ const  Administrative =()=>{
             <a onClick={handleClick}><LineAnimation name={"Administrative Experience"} /></a>
               <div className="experience-cards-div3" style ={{display:togg?'grid':'none'}}>
                  
-                 
-          <h2>Position <LineAnimation name={''}/></h2><h2>Institute/Org <LineAnimation name={''}/></h2><h2>Year <LineAnimation name={''}/></h2><h2>Continuing <LineAnimation name={''}/></h2>
-<p>Chairman, SPC<LineAnimation name={''}/></p>	
-<p>Student Placement Committee, IIT Kanpur<LineAnimation name={''}/></p>	
+          
+          <h2 style={{width:540}}>Position <LineAnimation name={''}/></h2> <h2 style={{width:540}}>Institute/Org <LineAnimation name={''}/></h2> <h2 style={{width:540}}>Year <LineAnimation name={''}/></h2><h2 style={{width:540}}>Continuing <LineAnimation name={''}/></h2>
+
+<p >Chairman, SPC<LineAnimation  name={''}/></p>	
+<p >Student Placement Committee, IIT Kanpur<LineAnimation name={''}/></p>	
 <p>Dec. 2007 to this date<LineAnimation name={''}/></p>	
 <p>Yes
 <LineAnimation name={''}/>

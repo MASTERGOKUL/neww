@@ -5,7 +5,7 @@ import MtRe from "./mtech";
 import BtRe from "./btech";
 import { useState } from "react";
 import LineAnimation from "../anim";
-export default function Reserach(){
+export default function (){
 
 
     const [togg,setTogg]=useState(false);
